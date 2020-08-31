@@ -1,0 +1,44 @@
+.corner {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid #606266;
+  border-bottom: 40px solid #606266;
+  z-index: 1;
+}
+
+/*设置gitalk位置*/
+.content {
+  position: static;
+  padding-left: 300px;
+}
+
+main {
+  height: auto;
+}
+
+#gitalk-container {
+  padding-left: 300px;
+}
+
+/* footer css */
+.foot {
+  border-radius: 50%;
+  text-align: center;
+}
+
+.about {
+  height: 42px;
+}
+
+.icons {
+  padding-right: 10px;
+}
+
+.copyright {
+  margin-top: 5px;
+}
